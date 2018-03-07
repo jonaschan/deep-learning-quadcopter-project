@@ -1,3 +1,5 @@
+""" Written by Jonas Chan for the Udacity Machine Learning Course on the 3rd of March 2018 """
+
 import os
 import numpy as np
 import random
@@ -12,7 +14,7 @@ import h5py
 Experience = namedtuple("Experience", field_names=["state", "action", "reward", "next_state", "done"])
 
 class DDPG_Hover(BaseAgent):
-    """Sample agent that searches for optimal policy randomly."""
+    """Agent that searches for optimal policy using DDPG."""
 
     def __init__(self, task):
 	

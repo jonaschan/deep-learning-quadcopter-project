@@ -1,3 +1,5 @@
+""" Written by Jonas Chan for the Udacity Machine Learning Course on the 3rd of March 2018 """
+
 """Hover task."""
 
 import numpy as np
